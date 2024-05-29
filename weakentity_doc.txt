@@ -1,0 +1,16 @@
+Introduction:
+This Python script generates images of weak entites for each entry from a specified column in a CSV file. The script creates two nested rectangles: an outer rectangle based on user-provided dimensions and an inner rectangle that is uniformly padded to ensure consistent spacing around the edges.
+
+Requirements:
+Before running the script, ensure the following packages are installed: matplotlib, pandas, and os. These can be installed via pip if not already present in the environment.
+Make sure you save the list of names you want to use here into a csv file, so that it would create a df and then list of the names
+
+How to Use the Script:
+Input the path where the images should be saved when prompted.
+Input the path to the CSV file containing the data.
+Provide the name of the column from the CSV that contains the text for the rectangles.
+Enter the dimensions for the outer rectangle (ideal width: 1.0, ideal height: 0.6).
+Output Description
+
+File Naming and Storage:
+Each image is named after the corresponding entry in the CSV column, with spaces replaced by underscores, and saved as a PNG file. The script prints the file path for each image upon successful saving.
