@@ -6,30 +6,15 @@ This repository contains various Python scripts for generating images, processin
 
 ## File Descriptions
 
-### `attribute_lw_ff.py`
-- **Functions:** `read_font_families`
-- **Classes:** None
-- **Description:** Reads and returns a list of font families available in the system for attribute labels. This is useful for customizing the appearance of text in generated images.
-
 ### `download_web.py`
 - **Functions:** `download_file`
 - **Classes:** None
 - **Description:** Downloads a file from a specified URL and saves it to the specified directory.
 
-### `weak_attribute.py`
-- **Functions:** None
-- **Classes:** None
-- **Description:** Contains functionality related to handling weak attributes in entity-relationship diagrams.
-
 ### `download_files.py`
 - **Functions:** `download_file`
 - **Classes:** None
 - **Description:** Similar to `download_web.py`, this script downloads files from specified URLs.
-
-### `multivalued_attribute.py`
-- **Functions:** None
-- **Classes:** None
-- **Description:** Contains functionality related to handling multivalued attributes in entity-relationship diagrams.
 
 ### `renamerows.py`
 - **Functions:** `rename_rows`
@@ -46,11 +31,6 @@ This repository contains various Python scripts for generating images, processin
 - **Classes:** None
 - **Description:** Loads datasets formatted for use with TensorFlow models.
 
-### `attribute.py`
-- **Functions:** `generate_attribute_image`
-- **Classes:** None
-- **Description:** Generates images representing attributes for ER diagrams.
-
 ### `df_draft1.py`
 - **Functions:** `create_dataframe`
 - **Classes:** None
@@ -66,21 +46,6 @@ This repository contains various Python scripts for generating images, processin
 - **Classes:** None
 - **Description:** Trains an image classification model using a specified dataset.
 
-### `identifying_relationship.py`
-- **Functions:** `identify_relationship`
-- **Classes:** None
-- **Description:** Identifies relationships in the given dataset and generates a report or visualization.
-
-### `weak_entity.py`
-- **Functions:** `generate_weak_entity_image`
-- **Classes:** None
-- **Description:** Generates images representing weak entities for ER diagrams.
-
-### `relationship.py`
-- **Functions:** `generate_relationship_image`
-- **Classes:** None
-- **Description:** Generates images representing relationships for ER diagrams.
-
 ### `dataframe_csv.py`
 - **Functions:** `convert_csv_to_dataframe`
 - **Classes:** None
@@ -90,11 +55,6 @@ This repository contains various Python scripts for generating images, processin
 - **Functions:** `delete_files`
 - **Classes:** None
 - **Description:** Deletes specified files from the filesystem.
-
-### `composite_attribute.py`
-- **Functions:** None
-- **Classes:** None
-- **Description:** Contains functionality related to handling composite attributes in ER diagrams.
 
 ### `df_imagepath.py`
 - **Functions:** `generate_image_paths`
@@ -114,13 +74,8 @@ This repository contains various Python scripts for generating images, processin
 ### `image_classification_erd.py`
 - **Functions:** `classify_erd_images`
 - **Classes:** None
-- **Description:** Classifies images of entity-relationship diagrams.
-
-### `attribute_font_lw.py`
-- **Functions:** None
-- **Classes:** None
-- **Description:** Handles font settings for attribute labels.
-
+- **Description:** Classifies images of entity-relationship diagrams
+  
 ### `draft_code.py`
 - **Functions:** None
 - **Classes:** None
@@ -146,11 +101,6 @@ This repository contains various Python scripts for generating images, processin
 - **Classes:** None
 - **Description:** Generates a DataFrame containing paths to images.
 
-### `weak_entity_name_ff_fs_lw.py`
-- **Functions:** `generate_weak_entity_name_image`
-- **Classes:** None
-- **Description:** Generates images for weak entity names.
-
 ### `image_generation_v4.py`
 - **Functions:** `generate_images_v4`
 - **Classes:** None
@@ -175,24 +125,6 @@ This repository contains various Python scripts for generating images, processin
 - **Functions:** `download_from_web`
 - **Classes:** None
 - **Description:** Downloads files from the web.
-
-### `key_attribute.py`
-- **Functions:** `generate_key_attribute_image`
-- **Classes:** None
-- **Description:** Generates images for key attributes.
-
-### `relationship_ff_fs_lw_batches.py`
-- **Functions:** `generate_relationship_batches`
-- **Classes:** None
-- **Description:** Generates relationship batches.
-
-## Readme Files
-
-### `Readme_entity.txt`
-Instructions for generating images of entities.
-
-### `weakentity_doc.txt`
-Instructions for generating images of weak entities.
 
 ## Usage
 
